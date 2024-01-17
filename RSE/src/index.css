@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+
+
+
+canvas {
+    height: 100vh !important;
+
+}
+
+article {
+    position: absolute;
+    top: -3.5rem;
+    left: 2rem;
+    color: #358AE5;
+    font-size: 4rem;
+    z-index: -1;
+    pointer-events: none;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+form {
+    position: absolute;
+    top: 10rem;
+    right: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* z-index: -1; */
+
+}
+
+form label {
+    margin: 0.5rem;
+    color: white;
+    pointer-events: none;
+}
+
+form input {
+    background-color: #358AE5;
+    border: none;
+    border-radius: 0.2em;
+    height: 2rem;
+
+}
+
+
+
+fieldset {
+    margin: 1rem;
+    border: none;
+}
+
+button {
+    border: none;
+    width: 6rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: #358AE5;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+form input:hover {
+    transform: scale(1.05);
+}
+
+#storage {
+    border: none;
+    width: 6rem;
+
+
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: #358AE5;
+}
+
+.result {
+    position: absolute;
+    top: 25rem;
+    right: 5rem;
+    color: #358AE5;
+    font-size: 2rem;
+}
